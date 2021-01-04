@@ -1,4 +1,4 @@
-## Responsive Portfolio: 
+## Responsive Portfolio
 
 # Purpose: 
 This document is a responsive portfolio for Web Development Bootcamp student Bruce Farmer.  It uses the CSS framework "Bootstrap" to style the document.
