@@ -2,6 +2,7 @@
     body{
        background-image: url("./images/background-images/whiteLighthouse.jpg");
        background-size: cover;
+       background-repeat: no-repeat;
        font-family: 'Quicksand', sans-serif;
     } 
    
@@ -22,11 +23,13 @@
    
        article{
           
-        background-color:#7a8b8b;
-          color: white;
+         /* background-color:#7a8b8b;
+          color: white; */
+          background-color: white;
+          color: black;
           border: 1px solid white;
            color: black;
-           opacity: 0.7; 
+           opacity: 0.5; 
            
            display: flex;
            flex-wrap: wrap;
@@ -35,6 +38,8 @@
            padding: 15px;
           
        }    
+
+
        
     
        article p{

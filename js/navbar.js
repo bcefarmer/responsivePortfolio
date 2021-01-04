@@ -84,7 +84,10 @@ $("#dynamicNav").append(parentNav);
 
     
 
-
+if( $("section").attr("id") === "contactPage" ){
+  $("a").css("color", "black");
+  $("#dynamicNav").css("border-bottom", "0.25px solid black" );
+}
 
   
     
