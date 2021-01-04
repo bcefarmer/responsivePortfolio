@@ -19,13 +19,21 @@
           font-size: 20px;
     }
     
+   
        article{
-          /* background-color: #175873; */
-          background-color:#7a8b8b;
+          
+          background-color: #585858;
+          color: white;
           border: 1px solid white;
-           color: white;
-           opacity: 0.7;
-           padding-top: 1%;
+           color: black;
+           opacity: 0.7; 
+           
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           padding: 15px;
+          
        }    
        
     
@@ -33,16 +41,34 @@
           font-family: 'Nanum Myeongjo', serif; 
           font-size: 16px;
        }
+
+       form{
+           padding-left: 5%;
+           padding-top: 35px;
+           color: white;
+       }
     
        .form-control{
            background-color: white;
            font-size: 16px;
+           width: 98%;
+           height: 40px;
        }
+
+      
     
         .btn{
-           font-size: 18px;
-           margin-top: 3%;
-     }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            background-color: #7371b5;
+            color: white;
+            width: 34%;
+            margin-top: 30px;
+            
+        }
+     
     
      img{
            width: auto;
