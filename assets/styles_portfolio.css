@@ -1,6 +1,6 @@
   
     body{
-       background-image: url("./images/background-images/nightLighthouse.jpg");
+       background-image: url("./images/background-images/rockyBeach.jpg");
        background-size: cover;
        font-family: 'Quicksand', sans-serif;
     } 
@@ -18,13 +18,13 @@
           color: white;
           font-size: 20px;
     }
-    
+      
        article{
           /* background-color: #175873; */
           background-color:#7a8b8b;
           border: 1px solid white;
            color: white;
-           opacity: 0.7;
+           opacity: 0.8;
            padding-top: 1%;
        }    
        
@@ -105,6 +105,8 @@
          article{
              margin-left: 0;
              padding: 5%;
+             max-height: 485px;
+             overflow-x:scroll;
          }
      }
     
