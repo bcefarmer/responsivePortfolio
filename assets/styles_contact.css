@@ -1,6 +1,6 @@
   
     body{
-       background-image: url("./images/background-images/lighthouseContact.jpg");
+       background-image: url("./images/background-images/whiteLighthouse.jpg");
        background-size: cover;
        font-family: 'Quicksand', sans-serif;
     } 
@@ -22,7 +22,7 @@
    
        article{
           
-          background-color: #585858;
+        background-color:#7a8b8b;
           color: white;
           border: 1px solid white;
            color: black;
@@ -52,7 +52,7 @@
            background-color: white;
            font-size: 16px;
            width: 98%;
-           height: 40px;
+           height: 35px;
        }
 
       
@@ -61,11 +61,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border-radius: 12px;
-            background-color: #7371b5;
+           
+            background-color: #00688B;
             color: white;
             width: 34%;
             margin-top: 30px;
+            border: none;
             
         }
      
@@ -86,7 +87,8 @@
      @media only screen and (min-width: 600px){
          article{
              margin-left: 0;
-             padding: 5%;
+             padding-top: 1%;
+             padding-left: 5%;
          }
      }
     
