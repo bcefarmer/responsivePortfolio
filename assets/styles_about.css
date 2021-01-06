@@ -31,13 +31,14 @@
       font-family: 'Nanum Myeongjo', serif; 
    }
 
-   .form-control{
-       background-color: white;
-       font-size: 22px;
-   }
 
     .btn{
-       font-size: 22px;
+       margin-top: 5%;
+       font-size: 17px;
+       color: #000000;
+       border: white;
+       background-color: none;
+       font-family: 'Quicksand', sans-serif;
  }
 
  img{
@@ -48,14 +49,22 @@
      height: 4%;
      width: auto;
  }
+
+ #link{
+     color: white;
+ }
      
  
 @media only screen and (min-width: 600px){
      article{
          margin-left: 0;
          padding: 5%;
-     }
- }
+     }}
+     @media only screen and (max-width: 599px){
+        .btn{
+            width: 100%;
+        }
+    }
 
 
 
