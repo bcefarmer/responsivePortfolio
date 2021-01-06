@@ -53,6 +53,10 @@
  #link{
      color: white;
  }
+
+ footer{
+    font-family: 'Quicksand', sans-serif;
+ }
      
  
 @media only screen and (min-width: 600px){

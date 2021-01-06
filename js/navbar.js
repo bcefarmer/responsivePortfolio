@@ -90,10 +90,12 @@ if( $("section").attr("id") === "contactPage" ){
 }
 
   
-    
+    // --------------------------------------------------------
+
+    // Dynamic footer addition
 
     
-
+    
 
 
 
